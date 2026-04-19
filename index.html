@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatiha Bee Azalia</title>
+  <style>
+    body { 
+      background: #fff5f9;
+      color: #1a1a1a; 
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+      flex-direction: column;
+    }
+    h1 { 
+      font-size: 26px; 
+      font-weight: 500;
+      line-height: 1.5;
+      padding: 20px;
+      max-width: 90%;
+    }
+    .nama {
+      color: #e91e63;
+      font-weight: 700;
+      display: block;
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    button {
+      background: #e91e63;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 25px;
+      box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+    }
+    button:active {
+      transform: scale(0.96);
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    <span class="nama">Fatiha Bee Azalia</span>
+    adalah orang tercantik didunia
+  </h1>
+  
+  <button onclick="document.getElementById('suara').play()">▶️ Play Suara</button>
+  
+  <!-- File audio lu taro di sini -->
+  <audio id="suara" src="suara.mp3"></audio>
+
+</body>
+  </html>
